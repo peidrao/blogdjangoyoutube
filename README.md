@@ -4,6 +4,6 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 
 ## 🎥 Playlist 
 
-**[Preparando ambiente #01](https://www.youtube.com/watch?v=UVxtHjaT75Q&t=139s)**
+**[#01 - Preparando ambiente](https://www.youtube.com/watch?v=UVxtHjaT75Q&t=139s)**
 
-**[Iniciando projeto #2](https://youtu.be/HihkH3kBTUU)**
+**[#02 - Iniciando projeto ](https://youtu.be/HihkH3kBTUU)**
