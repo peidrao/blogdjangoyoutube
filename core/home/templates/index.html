@@ -1,0 +1,15 @@
+ {% extends 'homebase.html' %}
+
+ {% block preloader %} {% include 'preloader.html' %} {% endblock  %}
+ {% block header %} {% include 'header.html' %} {% endblock  %}
+ {% block slide %} {% include 'slide.html' %} {% endblock  %}
+ <div class="blog-posts">
+     <div class="container">
+         <div class="row">
+             {% block content %} {% include 'content.html' %} {% endblock  %}
+
+             {% block aside %} {% include 'aside.html' %} {% endblock  %}
+         </div>
+     </div>
+ </div>
+ {% block footer %} {% include 'footer.html' %} {% endblock  %}
