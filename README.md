@@ -13,3 +13,5 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 **[#04 - Estrutura do projeto](https://youtu.be/742Ev2McamU)**
 
 **[#05 - Adicionando templates](https://youtu.be/00ivmARPtGU)**
+
+**[#06 - Criando models da aplicação](https://youtu.be/ySVq7SSem9o)**
