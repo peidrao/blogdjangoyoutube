@@ -1,5 +1,7 @@
 from django.contrib.auth.models import User
 from django.db import models
+from django.utils.safestring import mark_safe
+from django.urls import reverse 
 
 # Create your models here.
 
@@ -10,6 +12,9 @@ class Category(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.title
+
 
 class Post(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, null=False)
@@ -19,10 +24,19 @@ class Post(models.Model):
     slug = models.SlugField(unique=True, null=False)
     subtitle = models.CharField(max_length=150, null=False)
     description = models.TextField(null=False)
-    image = models.ImageField(upload_to='images/', null=True)
+    image = models.ImageField(upload_to='images/', blank=True)
     text = models.TextField(null=False)
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return self.title
 
+    def image_tag(self):
+        if self.image:
+            return mark_safe('<img src="{}" height="50" />'.format(self.image.url))
+        else:
+            'Sem imagem'
+
+    
