@@ -16,4 +16,4 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 
 **[#06 - Criando models da aplicação](https://youtu.be/ySVq7SSem9o)**
 
-**[#07 Ajustes no painel administrativo](https://youtu.be/E-n_mmoZrtc)**
+**[#07 - Ajustes no painel administrativo](https://youtu.be/E-n_mmoZrtc)**
