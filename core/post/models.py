@@ -14,6 +14,7 @@ class Category(models.Model):
 
     def __str__(self):
         return self.title
+    
 
 
 class Post(models.Model):
@@ -33,10 +34,12 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
-    def image_tag(self):
+    def image_table(self):
         if self.image:
             return mark_safe('<img src="{}" height="50" />'.format(self.image.url))
         else:
-            'Sem imagem'
+            return mark_safe('<p>Sem imagem</p>')
+    
 
+   
     

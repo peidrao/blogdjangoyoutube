@@ -9,11 +9,10 @@ class CategoryAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
 
 class PostAdmin(admin.ModelAdmin):
-    list_display = ['title', 'category', 'image_tag']
+    list_display = ['title', 'category', 'updated_at', 'image_table']
+    readonly_fields = ('image_table',)
     list_filter = ['category']
-    readonly_fields = ('image_tag',)
     prepopulated_fields = {'slug': ('title',)}
-
 
 
 admin.site.register(Category, CategoryAdmin)
