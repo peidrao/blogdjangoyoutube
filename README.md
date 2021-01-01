@@ -19,3 +19,5 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 **[#07 - Ajustes no painel administrativo](https://youtu.be/E-n_mmoZrtc)**
 
 **[#08 - Ckeditor](https://youtu.be/PlzlZkbRyZk)**
+
+**[#09 - Criando página home](https://youtu.be/n7CeavXAi1Y)**
