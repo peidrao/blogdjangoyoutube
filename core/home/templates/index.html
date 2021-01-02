@@ -3,7 +3,8 @@
  {% block preloader %} {% include 'preloader.html' %} {% endblock  %}
  {% block header %} {% include 'header.html' %} {% endblock  %}
  {% block slide %} {% include 'slide.html' %} {% endblock  %}
- <div class="blog-posts">
+ 
+ <section class="{% block container %} blog-posts {% endblock  %}">
      <div class="container">
          <div class="row">
              {% block content %} {% include 'content.html' %} {% endblock  %}
@@ -11,5 +12,5 @@
              {% block aside %} {% include 'aside.html' %} {% endblock  %}
          </div>
      </div>
- </div>
+ </section>
  {% block footer %} {% include 'footer.html' %} {% endblock  %}
