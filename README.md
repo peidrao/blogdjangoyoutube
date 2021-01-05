@@ -27,3 +27,5 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 **[#11 - Criando paginação](https://youtu.be/wxY23dxwrwo)**
 
 **[#12 - Página de postagens detalhadas](https://youtu.be/jvkTbT5b1B4)**
+
+**[#13 - Fazendo comentários em postagem](https://youtu.be/-8ON8RJ0iv4)**
