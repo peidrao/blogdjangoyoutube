@@ -19,7 +19,7 @@
                     </div>
                     <div class="down-content">
                       <span>{{item.category}}</span>
-                      <a href="post-details.html"><h4>{{item.title}}</h4></a>
+                      <a href="/post/{{item.id}}/{{item.slug}}"><h4>{{item.title}}</h4></a>
                       <ul class="post-info">
                         <li><a href="#">{{item.user.first_name}}</a></li>
                         <li><a href="#">{{item.updated_at|date:"d/m/Y"}}</a></li>
@@ -42,7 +42,7 @@
                         </li>
                     {% endif %}
 
-                        <li class="active"> {{page_obj.number}} </li>
+                        <li class="active"> <a href="#">{{page_obj.number}}</a> </li>
 
                     {% if page_obj.has_next %}
                         <li>

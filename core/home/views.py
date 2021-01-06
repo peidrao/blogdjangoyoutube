@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse
 from django.core.paginator import Paginator
 
 # Create your views here.
-from post.models import Post, Category
+from post.models import Post, Category, Comment
 
 def index(request):
     post_random = Post.objects.order_by('?')[:4]
@@ -33,4 +33,9 @@ def blog(request):
     }
     return render(request, 'pages/blog.html', context)
     
+
+def post_detail(request, id, slug):
+    post = Post.objects.get(pk=id)
+    comments = Comment.objects.filter(post_id=id, status='Lido')
+    return render(request, 'pages/post_detail.html', {'post': post, 'comments': comments})
     

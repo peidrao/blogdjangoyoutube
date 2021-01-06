@@ -17,7 +17,7 @@
                     <div class="content">
                         <ul>
                             {% for item in post_latest %}
-                            <li><a href="post-details.html">
+                            <li><a href="/post/{{item.id}}/{{item.slug}}">
                                     <h5>{{item.title}}</h5>
                                     <span>{{item.created_at|date:"d/m/Y"}}</span>
                                 </a></li>
