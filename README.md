@@ -21,3 +21,11 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 **[#08 - Ckeditor](https://youtu.be/PlzlZkbRyZk)**
 
 **[#09 - Criando página home](https://youtu.be/n7CeavXAi1Y)**
+
+**[#10 - Página página blog](https://youtu.be/HkUluOGsHE0)**
+
+**[#11 - Criando paginação](https://youtu.be/wxY23dxwrwo)**
+
+**[#12 - Página de postagens detalhadas](https://youtu.be/jvkTbT5b1B4)**
+
+**[#13 - Fazendo comentários em postagem](https://youtu.be/-8ON8RJ0iv4)**
