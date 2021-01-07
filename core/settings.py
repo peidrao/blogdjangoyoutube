@@ -14,7 +14,7 @@ SECRET_KEY = 'u-dtq1yv%5r7#161^q)5g^)icqpds6+_h=bw216-!x#x4it*=a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangoblogpeidrao.herokuapp.com']
+ALLOWED_HOSTS = []
                   
 
 # Application definition
@@ -36,7 +36,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -72,14 +71,13 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd7n9vnut72n29m',
-        'USER': 'banddkfjohhyxl',
-        'PASSWORD': '30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3',
-        'HOST': 'ec2-54-235-116-235.compute-1.amazonaws.com',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'docker2020',
+        'HOST': '127.0.0.1:8000',
         'PORT': '5432'
     }
 }
-# postgres://banddkfjohhyxl:30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3@ec2-54-235-116-235.compute-1.amazonaws.com:5432/d7n9vnut72n29m
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -117,11 +115,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join('home/static')]
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CKEDITOR_CONFIGS = {
     'default': {
