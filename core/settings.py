@@ -79,7 +79,7 @@ DATABASES = {
         'PORT': '5432'
     }
 }
-postgres://banddkfjohhyxl:30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3@ec2-54-235-116-235.compute-1.amazonaws.com:5432/d7n9vnut72n29m
+# postgres://banddkfjohhyxl:30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3@ec2-54-235-116-235.compute-1.amazonaws.com:5432/d7n9vnut72n29m
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
