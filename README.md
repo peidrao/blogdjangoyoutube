@@ -34,5 +34,8 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 
 **[#15 - Adicionando quantidade de comentários respectio as postagens](https://youtu.be/DTT7lHNJV2s)**
 
+**[#16 - Página Sobre (about)](https://youtu.be/ed_MuCVkGWM)**
+
+
 
 
