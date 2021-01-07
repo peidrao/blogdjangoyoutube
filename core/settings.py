@@ -72,14 +72,14 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'database',
-        'USER': 'postgres',
-        'PASSWORD': 'docker2020',
-        'HOST': '127.0.0.1',
+        'NAME': 'd7n9vnut72n29m',
+        'USER': 'banddkfjohhyxl',
+        'PASSWORD': '30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3',
+        'HOST': 'ec2-54-235-116-235.compute-1.amazonaws.com',
         'PORT': '5432'
     }
 }
-
+postgres://banddkfjohhyxl:30eb951436f79569548ec0b3ba8b22e3f0858192950854d9819c468bfed646e3@ec2-54-235-116-235.compute-1.amazonaws.com:5432/d7n9vnut72n29m
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
