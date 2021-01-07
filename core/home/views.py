@@ -1,7 +1,10 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse, HttpResponseRedirect
 from django.core.paginator import Paginator
 
 # Create your views here.
+from .models import Contact
+from .forms import ContactForm
+
 from post.models import Post, Category, Comment
 
 def index(request):
@@ -37,5 +40,35 @@ def blog(request):
 def post_detail(request, id, slug):
     post = Post.objects.get(pk=id)
     comments = Comment.objects.filter(post_id=id, status='Lido')
-    return render(request, 'pages/post_detail.html', {'post': post, 'comments': comments})
+    total = 0
+    for i in comments:
+        total = total + 1
     
+    context = {
+        'post': post,
+        'comments': comments,
+        'total': total}
+
+    return render(request, 'pages/post_detail.html', context)
+    
+def contact(request):
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            data = Contact()
+            data.name = form.cleaned_data['name']
+            data.email = form.cleaned_data['email']
+            data.subject = form.cleaned_data['subject']
+            data.message = form.cleaned_data['message']
+
+            data.save()
+            return HttpResponseRedirect('/contact/')
+    form = ContactForm
+    context = {
+        'form': form
+    }
+
+    return render(request, 'pages/contact.html', context)
+
+def about(request):
+    return render(request, 'pages/about.html')
