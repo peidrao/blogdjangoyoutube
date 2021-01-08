@@ -14,7 +14,7 @@ SECRET_KEY = 'u-dtq1yv%5r7#161^q)5g^)icqpds6+_h=bw216-!x#x4it*=a'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoblogpeidrao.herokuapp.com']
                   
 
 # Application definition
@@ -72,14 +72,13 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'docker2020',
-        'HOST': '127.0.0.1:8000',
+        'NAME': 'd8shoko12qbtlm',
+        'USER': 'daiefxlzewervf',
+        'PASSWORD': '7f33dab9520896ca0c42cd488491bf79f0d60b6cdf4627709e2f856eaedd9d22',
+        'HOST': 'ec2-52-202-66-191.compute-1.amazonaws.com',
         'PORT': '5432'
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
