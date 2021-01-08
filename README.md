@@ -29,3 +29,13 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 **[#12 - Página de postagens detalhadas](https://youtu.be/jvkTbT5b1B4)**
 
 **[#13 - Fazendo comentários em postagem](https://youtu.be/-8ON8RJ0iv4)**
+
+**[#14 - Página de contato](https://youtu.be/cks_fQLOB1I)**
+
+**[#15 - Adicionando quantidade de comentários respectio as postagens](https://youtu.be/DTT7lHNJV2s)**
+
+**[#16 - Página Sobre (about)](https://youtu.be/ed_MuCVkGWM)**
+
+
+
+
