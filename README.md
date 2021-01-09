@@ -36,6 +36,8 @@ Curso feito para ajudar estudantes e pessoas que querem apreender uma novo frame
 
 **[#16 - Página Sobre (about)](https://youtu.be/ed_MuCVkGWM)**
 
+**[#17 - Deploy no Heroku ](https://youtu.be/XHKDAIoA5-c)**
+
 
 
 
