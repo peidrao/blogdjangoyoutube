@@ -2,6 +2,18 @@
 
 Curso feito para ajudar estudantes e pessoas que querem apreender uma novo framework. Usando Django, buscaremos por meio da prática apreender vários informações que são indispensáveis na vida de um programador. 
 
+## :speech_balloon:  O que foi falado nesse curso? 
+
+- Conceitos relacionados ao Django
+- Arquitetura Django
+- Painel administrativo 
+- Validação de formularios
+- Criação de models 
+- Conexão com banco de dados PostgreSQL
+- ORM
+- Templates engines (Jinja2)
+- Deploy (Heroku)
+
 ## 🎥 Playlist 
 
 **[#01 - Preparando ambiente](https://www.youtube.com/watch?v=UVxtHjaT75Q&t=139s)**
