@@ -196,11 +196,11 @@ header .navbar {
 }
 
 .background-header .navbar-brand h2 {
-    color: #121212!important;
+    color: #20232e!important;
 }
 
 .background-header .navbar-nav a.nav-link {
-    color: #1e1e1e!important;
+    color: #20232e!important;
 }
 
 .background-header .navbar-nav .nav-link:hover,
@@ -208,7 +208,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-    color: #87fcd5!important;
+    color: #fff!important;
 }
 
 .navbar .navbar-brand {
@@ -218,7 +218,7 @@ header .navbar {
 }
 
 .navbar .navbar-brand h2 {
-    color: #1e1e1e;
+    color: #20232e;
     text-transform: uppercase;
     font-size: 24px;
     font-weight: 900;
@@ -261,7 +261,7 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-    color: #f48840;
+    color: #fff;
 }
 
 .navbar .navbar-toggler-icon {
@@ -269,8 +269,7 @@ header .navbar {
 }
 
 .navbar .navbar-toggler {
-    border-color: #fff;
-    background-color: #f48840;
+    background-color: #20232e;
     height: 46px;
     outline: none;
     border-radius: 0px;
@@ -349,7 +348,7 @@ header .navbar {
 }
 
 .owl-banner .item .item-content ul li a:hover {
-    color: #f48840;
+    color: #20232e;
 }
 
 .owl-banner .owl-nav {
@@ -398,7 +397,7 @@ header .navbar {
 }
 
 .call-to-action .main-content span {
-    color: #f48840;
+    color: #3d9173;
     font-size: 18px;
     font-weight: 900;
     letter-spacing: 0.5px;
@@ -446,7 +445,7 @@ header .navbar {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 900;
-    color: #f48840;
+    color: #3d9173;
 }
 
 .blog-posts .down-content h4 {
@@ -488,13 +487,13 @@ header .navbar {
 
 .blog-posts .down-content ul.post-info li a {
     font-size: 14px;
-    color: #aaa;
+    color: #20232e;
     font-weight: 400;
     transition: all .3s;
 }
 
 .blog-posts .down-content ul.post-info li a:hover {
-    color: #f48840;
+    color: #3d9173;
 }
 
 .blog-posts .down-content p {
