@@ -514,7 +514,7 @@ header .navbar {
 
 .blog-posts .down-content ul.post-tags li:first-child i,
 .blog-posts .down-content ul.post-share li:first-child i {
-    color: #f48840;
+    color: #3d9173;
     margin-right: 5px;
 }
 
@@ -533,7 +533,7 @@ header .navbar {
 
 .blog-posts .down-content ul.post-tags li a:hover,
 .blog-posts .down-content ul.post-share li a:hover {
-    color: #f48840;
+    color: #3d9173;
 }
 
 .blog-posts .main-button a {
@@ -567,8 +567,8 @@ ul.page-numbers li a {
 }
 
 ul.page-numbers li.active a {
-    background-color: #f48840;
-    border-color: #f48840;
+    background-color: #3d9173;
+    border-color: #20232e;
     color: #fff;
 }
 
@@ -855,7 +855,7 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-    color: #f48840;
+    color: #20232e;
 }
 
 footer p {
